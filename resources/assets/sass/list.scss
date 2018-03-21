@@ -1,0 +1,25 @@
+$bg-color : #ff9f00;
+$bg-active : #ca6600;
+$border-color : #9c5307;
+
+.list-group{
+	bordee : none !important;
+}
+.list-group-item {
+	background: $bg-color  !important;
+	color : #ffffff !important;
+	border: none !important;
+	&.active{
+		background: $bg-active  !important;
+	}
+	&.active, &.active:hover, &.active:active{
+		border-left: 10px solid $border-color !important;
+		border-right: none !important; 
+		border-top: 1px solid $border-color !important; 
+		border-bottom: none !important; 
+		font-weight: bold !important;
+	}
+	h4{
+		color : #ffffff !important;
+	}
+}

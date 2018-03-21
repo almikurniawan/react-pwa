@@ -1,0 +1,27 @@
+.thumbnail{
+	padding: 5px !important;
+	background: #ffffff !important;
+	.caption {
+		h3{
+			margin-top: 0px !important;
+			font-size: 18px !important;
+			font-weight: bold !important;
+			color: #000000 !important;
+		}
+		a:hover{
+			text-decoration: none !important;
+		}
+		a:hover{
+			h3{
+				color: #585858 !important;
+			}
+		}
+		p{
+			color: #000000 !important;
+		}
+		.btn-circle{
+			border-radius: 30px 30px 30px 30px !important;
+			padding: 1% 3% 1% 3%;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+$bg-color : #FF9F00;
+$border-color : #ca8c25;
+$font-color : #ffffff;
+$font-color-active : #000000;
+
+.navbar{
+	background: $bg-color !important;
+	border-color: none !important;
+	.nav{
+		li{
+			&.active{
+				a,a:hover,a:active,a:focus{
+					background: $bg-color !important;
+				}
+			}
+			a{
+				background: $bg-color !important;
+				color: $font-color !important;
+			}
+			a:hover,a:active,a:focus{
+				color: $font-color-active !important;
+			}
+
+			ul.dropdown-menu{
+				background: $bg-color !important;
+			}
+		}
+	}
+}
+.navbar-default{
+	border: none !important;
+}
+
+.input, .input:active, .input:focus, .input:hover{
+	background: transparent !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+	border-bottom: 1px solid $border-color !important;
+	padding: 3px !important;
+	outline: none !important;
+	line-height: 2em;
+}

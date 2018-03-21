@@ -1,0 +1,18 @@
+ul.simple-list{
+	list-style: none;
+	padding: 0;
+	width: 100%;
+	li:before{
+	    position: relative;
+	    width: 100%;
+	    top: 1px;
+	    display: inline-block;
+	    font-family: 'Glyphicons Halflings';
+	    font-style: normal;
+	    font-weight: normal;
+	    line-height: 2;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	    padding: 0 0px;
+	}
+}
